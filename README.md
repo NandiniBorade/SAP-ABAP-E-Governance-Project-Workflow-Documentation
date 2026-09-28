@@ -4,29 +4,31 @@
 
 This project is an SAP ABAP based E-Governance Digital Service project developed to demonstrate the complete workflow of a citizen service application.
 
-The project covers citizen registration, application processing, document verification, certificate processing, status management, testing, debugging, performance optimization and final workflow documentation.
+The project covers citizen registration, application management, document verification, certificate processing, status management, reporting, testing, debugging, performance optimization and final workflow documentation.
 
-The Week 5 implementation focuses on designing and documenting the complete project workflow and lifecycle.
+The activity focuses on designing and documenting the complete project workflow and project lifecycle.
 
 ---
 
-## Objectives
+## Project Objectives
 
-- Design a complete E-Governance project workflow.
-- Manage citizen service application processing.
-- Perform document verification before application processing.
-- Manage certificate generation workflow.
-- Maintain application status through different stages.
-- Implement validation and basic error handling.
+- Design a complete E-Governance service workflow.
+- Manage citizen and application related information.
+- Verify submitted document information.
+- Process applications after document verification.
+- Process certificate information.
+- Maintain application status.
 - Display workflow information using ALV.
-- Prepare a final project workflow summary.
+- Apply modular ABAP programming.
+- Perform validation and error handling.
 - Document the complete project lifecycle.
+- Define deployment, support and maintenance activities.
 
 ---
 
 ## Project Workflow
 
-The implemented workflow follows these major steps:
+The complete workflow consists of the following steps:
 
 1. Citizen Registration
 2. Application Creation
@@ -40,21 +42,15 @@ The implemented workflow follows these major steps:
 
 ```text
 Citizen Registration
-        |
-        v
+        ↓
 Application Creation
-        |
-        v
+        ↓
 Document Verification
-        |
-        v
+        ↓
 Application Processing
-        |
-        v
+        ↓
 Certificate Processing
-        |
-        v
+        ↓
 Application Status Update
-        |
-        v
-Final Workflow Summary
+        ↓
+Final Workflow Report
